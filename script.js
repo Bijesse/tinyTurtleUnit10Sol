@@ -1,18 +1,21 @@
 TinyTurtle.apply(window);
 
-function square(){
-forward(50);
-right(90);
-forward(50);
-right(90);
-forward(50);
-right(90);
-forward(50);
-right(90);
-forward(50);
+function shape(size, angle){
+forward(size);
+right(angle);
+forward(size);
+right(angle);
+forward(size);
+right(angle);
+forward(size);
+right(angle);
+forward(size);
+right(angle);
+forward(size);
+right(angle);
+forward(size);
 }
 
-// Type your function call below
-
+shape(30, 60);
 
 stamp();
